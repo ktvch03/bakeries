@@ -1,5 +1,5 @@
 :root {
-  --white: #ffffff;
+  --white: #fff;
 }
 .container {
   width: 1200px;
@@ -71,11 +71,15 @@ body {
 .hero-list {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .hero-item {
   background-color: #272727;
   padding: 0px 19px ;
   display: flex;
+}
+.hero-item img{
+  width: 162px;
 }
 .hero-item:hover,
 .hero-item:focus{
